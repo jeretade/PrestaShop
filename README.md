@@ -115,7 +115,7 @@ An **Elastic IP address** (`16.192.204.49`) was allocated and associated with th
 > ### 📸 SCREENSHOT 3 — Elastic IP Associated
 > **What to show:** Elastic IPs page showing `16.192.204.49` successfully associated with `prestashop-web-01`  
 >
-> ![Elastic IP](./screenshots/03-elastic-ip.png)
+> ![Elastic IP](./screenshots/ElasticIPassociation.png)
 
 ---
 
@@ -142,14 +142,14 @@ A separate RDS instance was created to host the MySQL database, fulfilling the r
 > ### 📸 SCREENSHOT 4 — RDS Database Available
 > **What to show:** RDS console showing `prestashop-db` with status **Available**  
 >
-> ![RDS Available](./screenshots/04-rds-available.png)
+> ![RDS Available](./screenshots/prestashopCreated.png)
 
 ---
 
 > ### 📸 SCREENSHOT 5 — RDS Connectivity Details
 > **What to show:** RDS Connectivity & Security tab showing the full endpoint URL and **Publicly accessible: No**  
 >
-> ![RDS Connectivity](./screenshots/05-rds-connectivity.png)
+> ![RDS Connectivity](./screenshots/Endpoint.png)
 
 ---
 

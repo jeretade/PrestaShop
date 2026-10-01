@@ -92,7 +92,7 @@ The EC2 instance was launched with the following configuration:
 > **What to show:** The green "Successfully initiated launch of instance" banner with instance ID `i-003b3ed0423d38b1e`  
 > **File to use:** `instance.png`
 >
-> ![EC2 Launch Success](./screenshots/01-ec2-launch-success.png)
+> ![EC2 Launch Success](./screenshots/instance.png)
 
 ---
 

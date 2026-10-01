@@ -171,14 +171,14 @@ Two security groups were configured to enforce network segmentation:
 > **What to show:** `prestashop-db-sg` inbound rules page showing port 3306 restricted to `172.31.43.134/32` with the green success banner  
 > **File to use:** `wooooo.png` (the security group saved confirmation)  
 >
-> ![DB Security Group](./screenshots/06-db-security-group.png)
+> ![DB Security Group](./screenshots/wooooo.png)
 
 ---
 
 > ### 📸 SCREENSHOT 7 — Web Server Security Group Rules
 > **What to show:** `launch-wizard-1` inbound rules showing SSH (22), HTTP (80), HTTPS (443)  
 >
-> ![Web Security Group](./screenshots/07-web-security-group.png)
+> ![Web Security Group](./screenshots/InboundRule.png)
 
 ---
 
@@ -201,7 +201,7 @@ ssh -i ~/prestashop-key.pem ubuntu@16.192.204.49
 > ### 📸 SCREENSHOT 8 — Successful SSH Connection
 > **What to show:** Terminal showing the Ubuntu 24.04 LTS welcome message and the prompt `ubuntu@ip-172-31-43-134:~$`  
 >
-> ![SSH Connection](./screenshots/08-ssh-connection.png)
+> ![SSH Connection](./screenshots/WelcomeToUbuntu.png)
 
 ---
 
@@ -240,7 +240,7 @@ Swap:          2.0Gi        0B         2.0Gi
 > ### 📸 SCREENSHOT 9 — Swap File Active
 > **What to show:** Terminal showing output of `free -h` with **2.0Gi** under Swap  
 >
-> ![Swap Active](./screenshots/09-swap-active.png)
+> ![Swap Active](./screenshots/step2,3,4.png)
 
 ---
 
@@ -270,14 +270,14 @@ sudo systemctl restart apache2
 > ### 📸 SCREENSHOT 10 — Apache Running
 > **What to show:** Terminal showing `sudo systemctl status apache2` with **active (running)** highlighted in green  
 >
-> ![Apache Running](./screenshots/10-apache-running.png)
+> ![Apache Running](./screenshots/step5.png)
 
 ---
 
 > ### 📸 SCREENSHOT 11 — Apache Default Page in Browser
 > **What to show:** Browser at `http://16.192.204.49` showing the Apache2 Ubuntu Default Page ("It works!")  
 >
-> ![Apache Browser](./screenshots/11-apache-browser.png)
+> ![Apache Browser](./screenshots/web.png)
 
 ---
 
@@ -313,7 +313,8 @@ sudo rm /var/www/html/index.html
 > ### 📸 SCREENSHOT 12 — PrestaShop Download
 > **What to show:** Terminal showing the wget download progress bar for `prestashop_8.1.7.zip`  
 >
-> ![Download](./screenshots/12-prestashop-download.png)
+> ![Download](./screenshots/DownloadingPrestashop.png)
+> ![Download](./screenshots/DownloadingPrestashop2.png)
 
 ---
 
@@ -341,21 +342,21 @@ A non-critical warning was displayed: *"To avoid internationalization data incon
 > ### 📸 SCREENSHOT 13 — PrestaShop Installer Welcome Page
 > **What to show:** Browser showing the PrestaShop installer language selection page at `http://16.192.204.49/install/index.php`  
 >
-> ![Installer Welcome](./screenshots/13-installer-welcome.png)
+> ![Installer Welcome](./screenshots/prestashopInstallerPage.png)
 
 ---
 
 > ### 📸 SCREENSHOT 14 — System Compatibility Check
 > **What to show:** Browser showing the compatibility page with all green checkmarks and the non-critical symfony warning  
 >
-> ![Compatibility](./screenshots/14-compatibility-check.png)
+> ![Compatibility](./screenshots/PrestashopCompatibilityCheck.png)
 
 ---
 
 > ### 📸 SCREENSHOT 15 — Store Information Page
 > **What to show:** Browser showing the Store Information form filled in with store name, admin email etc.  
 >
-> ![Store Info](./screenshots/15-store-information.png)
+> ![Store Info](./screenshots/Infoaboutstore.png)
 
 ---
 
@@ -377,7 +378,7 @@ The database configuration page was filled with the RDS connection details:
 > **What to show:** Browser showing the database configuration page with the green **"Database is connected"** confirmation message  
 > **File to use:** Your screenshot of the green database connected message  
 >
-> ![Database Connected](./screenshots/16-database-connected.png)
+> ![Database Connected](./screenshots/DatabaseConnected.png)
 
 ---
 
@@ -410,7 +411,7 @@ show databases;
 > ### 📸 SCREENSHOT 17 — MySQL Terminal Connection to RDS
 > **What to show:** Terminal showing successful MySQL login to RDS and `show databases;` output listing the `prestashop` database  
 >
-> ![MySQL Connection](./screenshots/17-mysql-connection.png)
+> ![MySQL Connection](./screenshots/Showdatabase.png)
 
 ---
 
@@ -456,28 +457,28 @@ sudo rm -rf /var/www/html/Install
 > ### 📸 SCREENSHOT 19 — Installation Complete Page
 > **What to show:** Browser showing the PrestaShop installation success/complete page  
 >
-> ![Install Complete](./screenshots/19-install-complete.png)
+> ![Install Complete](./screenshots/completed.png)
 
 ---
 
 > ### 📸 SCREENSHOT 20 — Live PrestaShop Storefront ⭐
 > **What to show:** Browser showing the live PrestaShop store homepage at `http://16.192.204.49/index.php`  
 >
-> ![Storefront](./screenshots/20-storefront.png)
+> ![Storefront](./screenshots/storefront.png)
 
 ---
 
 > ### 📸 SCREENSHOT 21 — Admin Login Page
 > **What to show:** Browser showing the PrestaShop admin login page at `http://16.192.204.49/admin973b3cjf1bcfgkd0mxv`  
 >
-> ![Admin Login](./screenshots/21-admin-login.png)
+> ![Admin Login](./screenshots/AdminLoginPage.png)
 
 ---
 
 > ### 📸 SCREENSHOT 22 — Admin Dashboard
 > **What to show:** Browser showing the PrestaShop admin dashboard after successful login  
 >
-> ![Admin Dashboard](./screenshots/22-admin-dashboard.png)
+> ![Admin Dashboard](./screenshots/prestashopAdminDashboard.png)
 
 ---
 
@@ -516,4 +517,4 @@ A 2 GB swap file was added to prevent memory-related crashes on the 1 GB RAM ins
 
 ---
 
-*Documentation prepared by Oguntade Jeremiah Olayinka — Bincom Dev Center Cyber Security Preliminary Assignment, September 2026.*
+*Documentation prepared by Oguntade Jeremiah Olayinka, September 2026.*

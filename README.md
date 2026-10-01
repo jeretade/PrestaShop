@@ -90,7 +90,6 @@ The EC2 instance was launched with the following configuration:
 
 > ### 📸 SCREENSHOT 1 — EC2 Launch Success
 > **What to show:** The green "Successfully initiated launch of instance" banner with instance ID `i-003b3ed0423d38b1e`  
-> **File to use:** `instance.png`
 >
 > ![EC2 Launch Success](./screenshots/instance.png)
 
@@ -98,7 +97,6 @@ The EC2 instance was launched with the following configuration:
 
 > ### 📸 SCREENSHOT 2 — EC2 Instance Running
 > **What to show:** EC2 Instances page showing `prestashop-web-01` with status **Running** and the public IPv4 address assigned  
-> **File to use:** Your screenshot of the running instance
 >
 > ![EC2 Running](./screenshots/instancerunning.png)
 
@@ -376,7 +374,6 @@ The database configuration page was filled with the RDS connection details:
 
 > ### 📸 SCREENSHOT 16 — Database Connected ⭐ MOST IMPORTANT SCREENSHOT
 > **What to show:** Browser showing the database configuration page with the green **"Database is connected"** confirmation message  
-> **File to use:** Your screenshot of the green database connected message  
 >
 > ![Database Connected](./screenshots/DatabaseConnected.png)
 

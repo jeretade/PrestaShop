@@ -100,7 +100,7 @@ The EC2 instance was launched with the following configuration:
 > **What to show:** EC2 Instances page showing `prestashop-web-01` with status **Running** and the public IPv4 address assigned  
 > **File to use:** Your screenshot of the running instance
 >
-> ![EC2 Running](./screenshots/02-ec2-instance-running.png)
+> ![EC2 Running](./screenshots/instancerunning.png)
 
 ---
 
